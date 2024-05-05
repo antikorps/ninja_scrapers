@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"><link rel="icon" type="image/x-icon" href="/html/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso</title>
+    <style>
+        :root {
+            --color-negro: #333;
+            --color-blanco: #FFFFFF;
+            --color-verde: #5c8374;
+        }
+
+        a,
+        a:visited {
+            color: #000080;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+            background: var(--color-blanco);
+            min-height: 100dvh;
+            color: var(--color-negro);
+            line-height: 1.5rem;
+        }
+
+        main {
+            width: 980px;
+            max-width: 95%;
+            display: block;
+            margin: 0 auto;
+        }
+
+
+        body {
+            width: 100%;
+            height: 100dvh;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 12px;
+            flex-grow: 0;
+        }
+
+        form input {
+            margin: 12px 0;
+            font-size: large;
+        }
+
+        button {
+            margin: 30px auto;
+            background: var(--color-verde);
+            color: var(--color-blanco);
+            padding: 12px 8px;
+            border: none;
+            font-size: large;
+            border-radius: 8px;
+        }
+
+        .credencial {
+            font-weight: 600;
+        }
+
+
+        @media (prefers-color-scheme: dark) {
+
+            a,
+            a:visited {
+                color: #87CEEB;
+            }
+
+            body {
+                background: var(--color-negro);
+                color: var(--color-blanco);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <form method="post">
+            <label>
+                Usuario: <br /><input type="text" name="usuario" required value="ninja">
+            </label>
+            <label>
+                Contraseña:<br /><input type="password" name="password" required value="Scraper13%">
+            </label>
+            <button>Acceder</button>
+        </form>
+        <p>Para acceder usa las siguientes credenciales:</p>
+        <ul>
+            <li>Usuario: <span class="credencial">ninja</span></li>
+            <li>Contraseña: <span class="credencial">Scraper13%</span></li>
+        </ul>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+codigo = "en"
+textos = [
+  "Access the application from:", #0, terminal message
+  "Platform to improve, from the shadows, your scraping skills and abilities.", #1, highlighted above
+  "Remember!", #2, header panel with the description of the icons
+  "All information used is from the Music Brainz public domain database. With this data, the challenges will ask you for one of the following:", #3 first paragraph remember
+  "unique identifier of the artist", #4, description of the unique identifier icon
+  "artist's name", #5, description of artist icon
+  "year of formation of the artist", #6, description of formation icon
+  "recording title.", #7, discography title icon description
+  "date of release of the recording", #8, description of the icon date of the discography
+  "genres associated with the artist.", #9, description of the genres icon
+  "Complete your journey by solving the following challenges", #10, highlighted before the challenges
+  "Challenge 01", # 11, panel challenge 01
+  "Analyse this page and answer the following questions:", # 12, description challenge 01
+  "How many artists' names begin with the letter C?", # 13, challenge 01 statement a
+  "How many recordings were released in the year 1995?", # 14, challenge 01 statement b
+  "How many times does the genre 'electronic' appear among all the artists?", # 15, challenge 01 statement c
+  "Solve", # 16, text send challenge, also in JS variable
+  "The number you have entered is too high", # 17, highest answer
+  "The number you have entered is too low", # 18, lowest answer
+  "Congratulations, correct answer!", # 19 Correct answer
+  "Challenge 02", # 20, panel challenge 02
+  "Analyse this page and answer the following questions:", #21, description challenge 02
+  "How many artists were founded between 1980 and 1985 (both inclusive)?", # 22, challenge 02 statement to.
+  "What is the character length of the shortest title of a recording?", # 23, challenge 02 statement b
+  "The identifier for each artist is an alphanumeric code. If all the numeric characters in it are added together independently, what is the longest result?", # 24, challenge 02 statement c
+  "Challenge 03", # 25, panel challenge 03
+  "Analyse this page and answer the following questions:", # 26, description challenge 03
+  "What is the total number of recordings that the page displays?", # 27, challenge 03 statement a
+  "What is the total number of recordings that appear in the logs?", # 28, challenge 03 statement b
+  "What is the total number of genres if you add up all the genres that appear (regardless of whether they are repeated)?", # 29,
+  "Challenge 04", # 30, challenge 04 panel
+  "Analyse this page and answer the following questions:", # 31, description challenge 04
+  "How many artists are recommended on the page?", # 32, challenge 04 statement a
+  "What is the number of artists starting with the letter N?", #33, challenge 04 statement b
+  "The identifier for each artist is an alphanumeric code. If you count all the letters independently that appear in each one, what is the total number of alphabetic characters found?", # 34, challenge 04 statement c
+  "Challenge 05", # 35, panel challenge 05
+  "Analyse this page and answer the following questions:", # 36, description challenge 05
+  "What is the total number of genres present?", #37, challenge 05 statement a
+  "What is the sum of the two years of training with the most artists?", #38, challenge 05 statement b
+  "What is the first year of artist training for which records appear?", #39, challenge 05 statement c
+  "Challenge 06", #40, challenge 06 panel
+  "Analyse this page and answer the following questions:", # 41, challenge 06 description
+  "How many artists begin with the letter R?", # 42, challenge 06 statement a
+  "How many recordings were released in 1995?", # 43, challenge 06 statement b
+  "The identifier for each artist is an alphanumeric code. If you count each character as a digit, what is the sum of all the numeric characters found?", # 44, challenge 06 statement c
+  "This site respects your privacy. No monitoring scripts are used, no analytics are recorded, and no third-party cookies are used." # 45, footer
+]

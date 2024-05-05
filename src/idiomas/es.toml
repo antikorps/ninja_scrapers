@@ -1,0 +1,49 @@
+codigo = "es"
+textos = [
+  "Accede a la aplicación desde:", #0, mensaje desde terminal
+  "Plataforma para mejorar, desde las sombras, tus destrezas y habilidades para el scraping.", #1, destacado superior
+  "¡Recuerda!", #2, panel del encabezado con la descripción de los iconos
+  "Toda la información utilizada procede la base de datos de dominio público Music Brainz. Con estos datos, en los retos se te preguntará por alguno de los siguientes aspectos:", #3 primer párrafo recuerda
+  "identificador único del artista.", #4, descripción del icono identificador único
+  "nombre del artista", #5, descripción del icono artista
+  "año de formación del artista.", #6, descripción del icono formacion
+  "título de la grabación.", #7, descripción del icono título de la discografía
+  "fecha de publicación de la grabación.", #8, descripción del icono fecha de la discografía
+  "géneros asociados al artista.", #9, descripción del icono géneros
+  "Completa tu camino resolviendo los siguientes retos", #10, destacado antes de los retos
+  "Reto 01", # 11, panel reto 01
+  "Analiza este esta página y responde las siguientes preguntas:", # 12, descripción reto 01
+  "¿Cuántos nombres de artistas empiezan por la letra C?", # 13, reto 01 enunciado a
+  "¿Cuántas grabaciones fueron editadas en el año 1995?", # 14, reto 01 enunciado b
+  "¿Cuántos veces aparece el género 'electronic' entre todos los artistas?", # 15, reto 01 enunciado c
+  "Resolver", # 16, texto enviar reto, también en variable JS
+  "El número que has introducido es demasiado alto", # 17 respuesta más alta
+  "El número que has introducido es demasiado bajo", # 18 respuesta más baja
+  "¡Enhorabuena, respuesta correcta!", # 19 Respuesta correcta
+  "Reto 02", # 20, panel reto 02
+  "Analiza esta página y responde las siguientes preguntas:", #21, descripción reto 02
+  "¿Cuántos artistas se fundaron entre 1980 y 1985 (ambos inclusive)?", # 22, reto 02 enunciado a
+  "¿Cuál es la longitud de caracteres del título más corto de una grabación?", # 23, reto 02 enunciado b
+  "El identificador de cada artista es un código alfanumérico. Si se suman de manera independiente todos los caracteres numéricos del mismo, ¿cuál es el mayor resultado?", # 24, reto 02 enunciado c
+  "Reto 03", # 25, panel reto 03
+  "Analiza esta página y responde las siguientes preguntas:", # 26, descripción reto 03
+  "¿Cual es el número total de registros que la página muestra?", # 27, reto 03 enunciado a
+  "¿Cuál es el número total de grabaciones que aparecen en los registros?", # 28, reto 03 enunciado b
+  "¿Cuál es el número total de géneros si se suman todos los que aparezcan (sim importar que estén repetidos)?", # 29,
+  "Reto 04", # 30, panel reto 04
+  "Analiza esta página y responde las siguientes preguntas:", # 31, descripción reto 04
+  "¿Cuántos artistas se recomiendan en la página?", # 32, reto 04 enunciado a
+  "¿Cuál es el número de artistas que empiezan por la letra N?", #33, reto 04 enunciado b
+  "El identificador de cada artista es un código alfanumérico. Si cuentas todas las letras de manera independiente que aparecen en cada uno, ¿cuál es el total de caracteres alfabéticos encontrontrados?", # 34, reto 04 enunciado c
+  "Reto 05", # 35, panel reto 05
+  "Analiza esta página y responde las siguientes preguntas:", # 36, descripción reto 05
+  "¿Cuál es el número total de géneros presentes?", #37, reto 05 enunciado a
+  "¿Cuál es la suma de los dos años de formación con más artistas?", #38, reto 05 enunciado b
+  "¿Cuál es el primer año de formación de artistas del que aparecen registros?", #39, reto 05 enunciado c
+  "Reto 06", # 40, panel reto 06
+  "Analiza esta página y responde las siguientes preguntas:", # 41, descripción reto 06
+  "¿Cuántos artistas empiezan por la letra R?", # 42, reto 06 enunciado a
+  "¿Cuántas grabaciones se publicaron en 1995?", # 43, reto 06 enunciado b
+  "El identificador de cada artista es un código alfanumérico. Si cuentas cada caracter como una cifra, ¿cuál es la suma de todos los caracteres numéricos encontrontrados?", # 44, reto 06 enunciado c
+  "Esta página respeta tu privacidad. No se utilizan scripts de vigilancia, no se registra ningún tipo de analítica y tampoco se usan cookies de terceros." # 45, footer
+]

@@ -1,0 +1,35 @@
+.icono-generos,
+.icono-artista,
+.icono-publicacion,
+.icono-titulo {
+  width: 40px;
+}
+
+.artista {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.genero {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  display: table;
+  width: auto;
+  margin: 0 auto;
+}
+
+table img {
+  display: block;
+  margin: 0 auto !important;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 20px 10px !important;
+  border: 2px solid #f2f2f2;
+}
